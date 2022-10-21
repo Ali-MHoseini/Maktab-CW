@@ -1,6 +1,6 @@
 let $ = document;
-const email = $.getElementById("userPassword");
-const password = $.getElementById("userEmail");
+const password = $.getElementById("userPassword");
+const email = $.getElementById("userEmail");
 const submit = $.getElementById("submit");
 
 let emailvalidate = false;
@@ -46,8 +46,8 @@ submit.addEventListener('click', submitElem);
 
 function submitElem() {
     if (emailvalidate && passwordvalidate) {
-        alert('sign up')
+        alert('ok')
     } else {
-        alert('please nedonam chishi')
+        alert('no')
     }
 }
