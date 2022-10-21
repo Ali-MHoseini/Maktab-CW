@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     outline: none;
+    border: none;
 }
 
 body,
@@ -12,4 +13,51 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20rem;
+    height: 30rem;
+    background-color: burlywood;
+    padding: 0.5rem;
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
+    border-top: 3px solid darkturquoise;
+    border-left: 3px solid darkturquoise;
+    gap: 1rem;
+}
+
+.headerBox {
+    display: flex;
+    justify-content: center;
+    padding: 14px 16px;
+    width: 100%;
+    background-color: red;
+    color: white;
+}
+
+.inputFields {
+    width: 100%;
+    height: 2rem;
+    padding: 4px;
+}
+
+#messageBox {
+    width: 100%;
+    padding: 4px;
+}
+
+button {
+    width: 100%;
+    height: 2rem;
+    background-color: gold;
+}
+
+button:hover {
+    background-color: goldenrod;
+    cursor: pointer;
 }
