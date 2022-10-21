@@ -14,19 +14,21 @@
         <table>
             <form action="#">
                 <thead>
-                    <td colspan="2">Registration Form</td>
+                    <td colspan="2">
+                        <h1 style="color:white;text-align: center;">Registration Form</h1>
+                    </td>
                 </thead>
                 <tr>
                     <td>Enter Name</td>
-                    <td><input type="text"></td>
+                    <td><input type="text" class="inputs" id="nameUser" required></td>
                 </tr>
                 <tr>
                     <td>Enter Password</td>
-                    <td><input type="password" id="passeordUser"></td>
+                    <td><input type="password" id="passeordUser" class="inputs" required></td>
                 </tr>
                 <tr>
                     <td>Enter Address</td>
-                    <td><textarea name="addressBox" id="addressBox" cols="30" rows="10"></textarea></td>
+                    <td><textarea name="addressBox" id="addressBox" cols="30" rows="10" style="width: 100%;"></textarea></td>
                 </tr>
                 <tr>
                     <td>Select Game</td>
@@ -68,7 +70,7 @@
                     <td><input type="file" name="photoFiles" id="photoFiles"></td>
                 </tr>
                 <tr>
-                    <td colspan="2">
+                    <td colspan="2" style="text-align:center ;">
                         <button class="buttons">Click Me!</button>
                         <button type="reset" class="buttons"> Reset</button>
                         <button type="submit" class="buttons">Submit Form</button>
