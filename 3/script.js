@@ -2,6 +2,8 @@ let $ = document;
 const email = $.getElementById("emailBox");
 const submit = $.getElementsByTagName("button");
 
+let emailvalidate = false;
+
 email.addEventListener('input', emailValidation);
 
 function emailValidation() {

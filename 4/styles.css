@@ -26,6 +26,7 @@ td {
 .inputs {
     width: 100%;
     height: 1.5rem;
+    padding: 0.1rem;
 }
 
 button {
