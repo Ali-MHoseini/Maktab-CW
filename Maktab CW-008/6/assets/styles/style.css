@@ -82,7 +82,7 @@ body {
     padding: 0.5rem;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    text-align: center;
     background-color: #FFF;
     gap: 0.2rem;
 }
@@ -96,7 +96,7 @@ body {
     display: flex;
     flex-direction: row;
     padding: 0.5rem;
-    gap: 2rem;
+    gap: 2.5rem;
 }
 
 .img_taco {
@@ -105,14 +105,14 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
-    width: 18rem;
+    width: 30rem;
 }
 
 .description {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap:0.8rem;
+    gap:1rem;
 }
 
 .learnBtn {
