@@ -10,6 +10,7 @@ html, body {
 }
 body {
     background-image: linear-gradient(to right,#d33b74,#7045d5);
+    
 }
 
 .container {
@@ -121,4 +122,43 @@ body {
     background-color: #FFC600;
     height: 2rem;
     width: 8rem;
+}
+
+.section-title{
+    text-align: center;
+    padding: 25px;
+    font-size: 27px;
+    color: black;
+}
+
+.picsBar {
+    background-color: #FFF;
+}
+
+.section-title::before{
+    background-image: linear-gradient(to left,rgba(255,222,19,1),rgba(255,222,19,0.0));
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    height: 4px;
+    width: 30%;
+    position: relative;
+}
+
+.section-title::after {
+    background-image: linear-gradient(to right,rgba(255,222,19,1),rgba(255,222,19,0.0));
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    height: 4px;
+    width: 30%;
+    position: relative;
+}
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap:0.5rem
+}
+.gallery img {
+    margin: auto;
 }
