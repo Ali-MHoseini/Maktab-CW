@@ -9,6 +9,7 @@ const captcha_check = (() => {
     }}
 })();
 
+
 //Do not edit below this line.
 var bot = captcha_check.actual_captcha;
 captcha_check.check(bot);
