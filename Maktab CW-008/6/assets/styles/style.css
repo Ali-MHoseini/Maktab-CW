@@ -83,4 +83,42 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #FFF;
+    gap: 0.2rem;
+}
+
+.logos {
+    font-size: larger;
+}
+
+.tacoDes{
+    background-color: #f5f4f2;
+    display: flex;
+    flex-direction: row;
+    padding: 0.5rem;
+    gap: 2rem;
+}
+
+.img_taco {
+    background-image: url(../imgs/taco.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 18rem;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:0.8rem;
+}
+
+.learnBtn {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #FFC600;
+    height: 2rem;
+    width: 8rem;
 }
